@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+.pnp.load.mjs
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# Build outputs
+/dist
+/build
+/backend/build
+/frontend/client/build
+/frontend/client/dist
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
